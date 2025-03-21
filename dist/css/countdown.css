@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+  font-family: 'Montserrat', 'sans-serif';
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0808080a;
+  border-radius: 500px;
+  padding: 60px 20px;
+  box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
+}
+
+.clock-col {
+  text-align: center;
+  margin: 0 40px;
+  min-width: 90px;
+  position: relative;
+}
+
+.clock-timer {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.clock-label {
+  font-size: 1rem;
+  color: rgba(255,255,255,.7);
+}
+
+  .vertical-navbar {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3333330a;
+    padding-top: 0px;
+    padding: 60px 20px;
+    box-shadow: 1px 1px 5px rgba(255,255,255,.15), 0 15px 90px 30px rgba(0,0,0,.25);
+  }
+
+  .vertical-navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+
+  .vertical-navbar a:hover {
+    background-color: #b16cff;
+    border-radius: 500px;
+  }
+
+  body {
+    margin-left: 200px; /* Same as the width of the navbar */
+  }

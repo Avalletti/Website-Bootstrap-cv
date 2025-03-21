@@ -1,0 +1,53 @@
+/* Aggiungi margini al contenitore del carosello */
+.swiper-container {
+    margin-left: 2cm; /* Riduce il margine sinistro */
+    margin-right: 2cm; /* Riduce il margine destro */
+    max-width: 100%; /* Imposta una larghezza massima */
+    max-height: 100%; /* Imposta un'altezza massima */
+    overflow: hidden; /* Nasconde il contenuto che eccede i bordi */
+
+    /* Alza i puntini della paginazione */
+.swiper-pagination {
+    bottom: 100px; /* Modifica questo valore per alzare o abbassare i puntini */
+}
+
+.button-card {
+    border-radius: 50%;
+    background-color: #e2dcdc;
+    color: white;
+    text-align: center;
+    padding: 1%;   
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.button-card:hover {
+    background-color: #ffffff;
+}
+
+.button-card .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+}
+
+.button-card .card-title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.button-card .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
